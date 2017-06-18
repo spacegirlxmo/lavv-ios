@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FacebookLogin
+import FacebookCore
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if let accessToken = AccessToken.current {
+            // User is logged in, use 'accessToken' here.
+            print("Access token: \(accessToken)")
+        } else {
+            print("No access token.")
+        }
         return true
     }
 

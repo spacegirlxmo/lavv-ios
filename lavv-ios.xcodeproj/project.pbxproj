@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		721F0DEA1EF61B3F00A405BC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721F0DE91EF61B3F00A405BC /* FBSDKLoginKit.framework */; };
+		082BEC5325BC5BE65786BF91 /* Pods_lavv_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CCA9217DEAE346E6DF46E0 /* Pods_lavv_iosUITests.framework */; };
+		352A0D44C19A25F5350929D7 /* Pods_lavv_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1F5622DF38CC8C5C789077 /* Pods_lavv_iosTests.framework */; };
 		7251C6191EF251B100D44725 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7251C6181EF251B100D44725 /* AppDelegate.swift */; };
 		7251C61B1EF251B100D44725 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7251C61A1EF251B100D44725 /* FirstViewController.swift */; };
 		7251C61D1EF251B100D44725 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7251C61C1EF251B100D44725 /* SecondViewController.swift */; };
@@ -16,6 +17,7 @@
 		7251C6251EF251B200D44725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7251C6231EF251B200D44725 /* LaunchScreen.storyboard */; };
 		7251C6301EF251B200D44725 /* lavv_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7251C62F1EF251B200D44725 /* lavv_iosTests.swift */; };
 		7251C63B1EF251B200D44725 /* lavv_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7251C63A1EF251B200D44725 /* lavv_iosUITests.swift */; };
+		9309486DB24CF0BFD8AE76F6 /* Pods_lavv_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8872B3B6B6DFA79C5B653017 /* Pods_lavv_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		721F0DE91EF61B3F00A405BC /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../../../Documents/FacebookSDKs-iOS-4.23.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		2490CDD4F7D7FA70DCF27797 /* Pods-lavv-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavv-iosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lavv-iosUITests/Pods-lavv-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F1D30DC484F01FD7153D436 /* Pods-lavv-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavv-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-lavv-ios/Pods-lavv-ios.release.xcconfig"; sourceTree = "<group>"; };
 		7251C6151EF251B100D44725 /* lavv-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lavv-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7251C6181EF251B100D44725 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7251C61A1EF251B100D44725 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,13 @@
 		7251C6361EF251B200D44725 /* lavv-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lavv-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7251C63A1EF251B200D44725 /* lavv_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavv_iosUITests.swift; sourceTree = "<group>"; };
 		7251C63C1EF251B200D44725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8094DD4D5BF38B84DBDDABC2 /* Pods-lavv-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavv-iosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-lavv-iosTests/Pods-lavv-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		811EA40B8C06F9B3ED72B1A2 /* Pods-lavv-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavv-iosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lavv-iosTests/Pods-lavv-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8872B3B6B6DFA79C5B653017 /* Pods_lavv_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lavv_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1F5622DF38CC8C5C789077 /* Pods_lavv_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lavv_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CCA9217DEAE346E6DF46E0 /* Pods_lavv_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lavv_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02F9A636F71C0D5361EC9D5 /* Pods-lavv-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavv-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lavv-ios/Pods-lavv-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		FC0D59FF25C8DD602F1BEEE1 /* Pods-lavv-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lavv-iosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-lavv-iosUITests/Pods-lavv-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721F0DEA1EF61B3F00A405BC /* FBSDKLoginKit.framework in Frameworks */,
+				9309486DB24CF0BFD8AE76F6 /* Pods_lavv_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				352A0D44C19A25F5350929D7 /* Pods_lavv_iosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,16 +84,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082BEC5325BC5BE65786BF91 /* Pods_lavv_iosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0698F1BD92CDC726DB1B8B35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F02F9A636F71C0D5361EC9D5 /* Pods-lavv-ios.debug.xcconfig */,
+				4F1D30DC484F01FD7153D436 /* Pods-lavv-ios.release.xcconfig */,
+				811EA40B8C06F9B3ED72B1A2 /* Pods-lavv-iosTests.debug.xcconfig */,
+				8094DD4D5BF38B84DBDDABC2 /* Pods-lavv-iosTests.release.xcconfig */,
+				FC0D59FF25C8DD602F1BEEE1 /* Pods-lavv-iosUITests.debug.xcconfig */,
+				2490CDD4F7D7FA70DCF27797 /* Pods-lavv-iosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		721F0DE81EF61AC900A405BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				721F0DE91EF61B3F00A405BC /* FBSDKLoginKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +118,8 @@
 				7251C62E1EF251B200D44725 /* lavv-iosTests */,
 				7251C6391EF251B200D44725 /* lavv-iosUITests */,
 				7251C6161EF251B100D44725 /* Products */,
+				0698F1BD92CDC726DB1B8B35 /* Pods */,
+				E4EC91AABC3CC29B99698FF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +166,16 @@
 			path = "lavv-iosUITests";
 			sourceTree = "<group>";
 		};
+		E4EC91AABC3CC29B99698FF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8872B3B6B6DFA79C5B653017 /* Pods_lavv_ios.framework */,
+				AE1F5622DF38CC8C5C789077 /* Pods_lavv_iosTests.framework */,
+				D4CCA9217DEAE346E6DF46E0 /* Pods_lavv_iosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7251C63F1EF251B200D44725 /* Build configuration list for PBXNativeTarget "lavv-ios" */;
 			buildPhases = (
+				656D261D27CDC0FB0EAF664B /* [CP] Check Pods Manifest.lock */,
 				7251C6111EF251B100D44725 /* Sources */,
 				7251C6121EF251B100D44725 /* Frameworks */,
 				7251C6131EF251B100D44725 /* Resources */,
+				E0B7DD0F1A271D42C20D70A3 /* [CP] Embed Pods Frameworks */,
+				57436823C69405371524183D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7251C6421EF251B200D44725 /* Build configuration list for PBXNativeTarget "lavv-iosTests" */;
 			buildPhases = (
+				0B88FDBE8245FA032F7DB664 /* [CP] Check Pods Manifest.lock */,
 				7251C6271EF251B200D44725 /* Sources */,
 				7251C6281EF251B200D44725 /* Frameworks */,
 				7251C6291EF251B200D44725 /* Resources */,
+				866C09213FEC9337A43613F4 /* [CP] Embed Pods Frameworks */,
+				9DBF401BD7F1025922A374EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7251C6451EF251B200D44725 /* Build configuration list for PBXNativeTarget "lavv-iosUITests" */;
 			buildPhases = (
+				5BA7E843954E597516F99644 /* [CP] Check Pods Manifest.lock */,
 				7251C6321EF251B200D44725 /* Sources */,
 				7251C6331EF251B200D44725 /* Frameworks */,
 				7251C6341EF251B200D44725 /* Resources */,
+				AC2900417CF091B5E386B8D6 /* [CP] Embed Pods Frameworks */,
+				ADA4242EB2A5C3DB567D3741 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +313,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B88FDBE8245FA032F7DB664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		57436823C69405371524183D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lavv-ios/Pods-lavv-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA7E843954E597516F99644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		656D261D27CDC0FB0EAF664B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		866C09213FEC9337A43613F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lavv-iosTests/Pods-lavv-iosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DBF401BD7F1025922A374EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lavv-iosTests/Pods-lavv-iosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2900417CF091B5E386B8D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lavv-iosUITests/Pods-lavv-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA4242EB2A5C3DB567D3741 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lavv-iosUITests/Pods-lavv-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B7DD0F1A271D42C20D70A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-lavv-ios/Pods-lavv-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7251C6111EF251B100D44725 /* Sources */ = {
@@ -426,9 +609,9 @@
 		};
 		7251C6401EF251B200D44725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02F9A636F71C0D5361EC9D5 /* Pods-lavv-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "~/Documents/FacebookSDK";
 				INFOPLIST_FILE = "lavv-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "space.lavv.lavv-ios";
@@ -439,9 +622,9 @@
 		};
 		7251C6411EF251B200D44725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1D30DC484F01FD7153D436 /* Pods-lavv-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "~/Documents/FacebookSDK";
 				INFOPLIST_FILE = "lavv-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "space.lavv.lavv-ios";
@@ -452,6 +635,7 @@
 		};
 		7251C6431EF251B200D44725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811EA40B8C06F9B3ED72B1A2 /* Pods-lavv-iosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +650,7 @@
 		};
 		7251C6441EF251B200D44725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8094DD4D5BF38B84DBDDABC2 /* Pods-lavv-iosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +665,7 @@
 		};
 		7251C6461EF251B200D44725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0D59FF25C8DD602F1BEEE1 /* Pods-lavv-iosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "lavv-iosUITests/Info.plist";
@@ -493,6 +679,7 @@
 		};
 		7251C6471EF251B200D44725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2490CDD4F7D7FA70DCF27797 /* Pods-lavv-iosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "lavv-iosUITests/Info.plist";
